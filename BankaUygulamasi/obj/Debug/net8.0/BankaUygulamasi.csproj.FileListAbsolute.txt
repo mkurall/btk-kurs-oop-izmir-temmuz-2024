@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\bin\Debug\net8.0\BankaUygulamasi.exe
+C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\bin\Debug\net8.0\BankaUygulamasi.deps.json
+C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\bin\Debug\net8.0\BankaUygulamasi.runtimeconfig.json
+C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\bin\Debug\net8.0\BankaUygulamasi.dll
+C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\bin\Debug\net8.0\BankaUygulamasi.pdb
+C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\obj\Debug\net8.0\BankaUygulamasi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\obj\Debug\net8.0\BankaUygulamasi.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\obj\Debug\net8.0\BankaUygulamasi.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\obj\Debug\net8.0\BankaUygulamasi.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\obj\Debug\net8.0\BankaUygulamasi.dll
+C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\obj\Debug\net8.0\refint\BankaUygulamasi.dll
+C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\obj\Debug\net8.0\BankaUygulamasi.pdb
+C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\obj\Debug\net8.0\BankaUygulamasi.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\obj\Debug\net8.0\ref\BankaUygulamasi.dll
