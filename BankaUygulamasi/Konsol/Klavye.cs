@@ -15,12 +15,13 @@ public static class Klavye
     public static int IntOku(string mesaj)
     {
         Console.Write(mesaj);
-        int sayi = Convert.ToInt32(Console.ReadLine());
-        return sayi;
+        string okunan = Console.ReadLine();
+        return okunan.ToInt();
     }
     public static double DoubleOku(string mesaj)
     {
         Console.Write(mesaj);
-        return Convert.ToDouble(Console.ReadLine());
+        string okunan = Console.ReadLine();
+        return okunan.ToDouble();
     }
 }
