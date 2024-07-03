@@ -7,7 +7,6 @@ public static class TipDonusumleri
     //string sınıfını ilk yazan microsoft
     public static int ToInt(this string str)
     {
-
         return Convert.ToInt32(str);
     }
     public static double ToDouble(this string str)
