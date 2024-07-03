@@ -12,7 +12,11 @@ Banka yeniBanka = new();
 yeniBanka.BankaAd = str;
 yeniBanka.BankaTel = Klavye.StrOku("Banka Telefonunu Gir:");
 yeniBanka.BankaAdres = Klavye.StrOku("Banka Adresini Gir:");
+yeniBanka.KurulusYili = Klavye.IntOku("Kuruluş Yılını Gir:");
 
 Console.WriteLine("Yeni Banka Oluşturuldu.");
 yeniBanka.BilgileriniYaz();
+
+Console.Read();
+
 

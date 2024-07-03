@@ -32,10 +32,13 @@ public class Banka
         set;
     }
 
+    public int KurulusYili { get; set; }
+
     public void BilgileriniYaz()
     {
         Console.WriteLine($"Banka Adı: {BankaAd}");
         Console.WriteLine($"Banka Telefonu: {BankaTel}");
         Console.WriteLine($"Banka Adresi: {BankaAdres}");
+        Console.WriteLine($"Banka Kuruluş Yılı: {KurulusYili}");
     }
 }

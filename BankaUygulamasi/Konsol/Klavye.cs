@@ -14,9 +14,22 @@ public static class Klavye
     }
     public static int IntOku(string mesaj)
     {
-        Console.Write(mesaj);
-        string okunan = Console.ReadLine();
-        return okunan.ToInt();
+        do
+        {
+            Console.Write(mesaj);
+            string okunan = Console.ReadLine();
+            try
+            {
+                //başarılı ise metotttan çıkacak
+                return okunan.ToInt();
+            }
+            catch (Exception)
+            {
+                //başarılı olamadıysan tekrar oku
+                Console.WriteLine("Lütfen geçerli bir sayı girin.");
+            }
+            
+        } while(true);
     }
     public static double DoubleOku(string mesaj)
     {
