@@ -34,6 +34,10 @@ public class Banka
 
     public int KurulusYili { get; set; }
 
+    //generic liste
+    public List<Musteri> Musteriler { get; set; } = new List<Musteri>();
+
+
     public void BilgileriniYaz()
     {
         Console.WriteLine($"Banka Adı: {BankaAd}");

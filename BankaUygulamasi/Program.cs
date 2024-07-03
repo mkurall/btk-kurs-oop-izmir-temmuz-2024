@@ -2,7 +2,7 @@
 
 using BankaUygulamasi;
 using BankaUygulamasi.Konsol;
-/*
+
 string str = Klavye.StrOku("Banka Adını Gir:");
 
 //Benim tanımladığım banka sınıfından bir örnek oluşturdum
@@ -16,7 +16,7 @@ yeniBanka.KurulusYili = Klavye.IntOku("Kuruluş Yılını Gir:");
 
 Console.WriteLine("Yeni Banka Oluşturuldu.");
 yeniBanka.BilgileriniYaz();
-*/
+
 
 //Musteri yeniMusteri = new Musteri();*soyut sınıflar kullanılamaz
 
@@ -34,6 +34,8 @@ yeniMusteri2.Adres = "Ankara";
 
 yeniMusteri2.BilgileriGoster();
 
+yeniBanka.Musteriler.Add(yeniMusteri);//bankanın içindeki listeye ekler
+yeniBanka.Musteriler.Add(yeniMusteri2);
 
 Console.Read();
 
