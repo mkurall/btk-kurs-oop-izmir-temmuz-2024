@@ -9,15 +9,18 @@ public static class Veri
 
     public static void DosyayaKaydet()
     {
-        
         string data = System.Text.Json.JsonSerializer.Serialize<Banka>(Bankam);
-
-
         File.WriteAllText("veriler.txt", data);
     }
 
     public static void DosyadanOku()
     {
-        Bankam = new Banka();
+        if(File.Exists("veriler.txt"))
+        {
+            string data = File.ReadAllText("veriler.txt");
+            Bankam = System.Text.Json.JsonSerializer.Deserialize<Banka>(data);
+        }
+        else 
+            Bankam = new Banka();
     }
 }
