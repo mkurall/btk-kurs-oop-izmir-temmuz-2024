@@ -10,5 +10,6 @@ public class KurumsalMusteri : Musteri
     public override void BilgileriGoster()
     {
         Console.WriteLine("Kurumsal Müşteri Bilgileri");
+        Console.WriteLine($"Şirket Adı: {SirketAdi}");
     }
 }

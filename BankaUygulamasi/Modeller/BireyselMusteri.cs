@@ -11,5 +11,6 @@ public class BireyselMusteri : Musteri
     public override void BilgileriGoster()
     {
         Console.WriteLine("Bireysel Müşteri Bilgileri");
+        Console.WriteLine($"Ad Soyad:{AdSoyad}");
     }
 }
