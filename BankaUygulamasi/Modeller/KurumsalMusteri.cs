@@ -2,6 +2,10 @@
 
 public class KurumsalMusteri : Musteri
 {
+    public KurumsalMusteri(int no) : base(no)
+    {
+    }
+
     public string SirketAdi { get; set; }
     public override void BilgileriGoster()
     {
