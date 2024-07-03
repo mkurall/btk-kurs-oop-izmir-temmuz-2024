@@ -12,11 +12,11 @@ public static class Klavye
         Console.Write(mesaj);
         return Console.ReadLine();
     }
-
     public static int IntOku(string mesaj)
     {
         Console.Write(mesaj);
-        return Convert.ToInt32(Console.ReadLine());
+        int sayi = Convert.ToInt32(Console.ReadLine());
+        return sayi;
     }
     public static double DoubleOku(string mesaj)
     {

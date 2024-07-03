@@ -4,8 +4,8 @@ public class Banka
 {
     private string ad;//kapsüllenmiş
     private string tel;//sadece sınıf içinden erişilebilir
-    private string adres;
 
+    //full property
     public string BankaAd
     {
         get //property okunmaya çalışıldığında
@@ -14,8 +14,28 @@ public class Banka
         }
         set //property yazılmaya çalışıldığında
         {
+           
             ad = value;//bu anahtar kelime gelen veriyi temsil eder
         }
     }
 
+    public string BankaTel
+    {
+        get => tel; //lambda kullanımı
+        set => tel = value;
+    }
+
+    //otomatik property
+    public string BankaAdres
+    {
+        get; // (arkaplanda değişkeni kendi oluşturur)
+        set;
+    }
+
+    public void BilgileriniYaz()
+    {
+        Console.WriteLine($"Banka Adı: {BankaAd}");
+        Console.WriteLine($"Banka Telefonu: {BankaTel}");
+        Console.WriteLine($"Banka Adresi: {BankaAdres}");
+    }
 }

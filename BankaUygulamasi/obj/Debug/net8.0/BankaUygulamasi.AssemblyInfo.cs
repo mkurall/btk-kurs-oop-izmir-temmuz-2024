@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BankaUygulamasi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f9d822b3a312b0a97bb59c6e9ddaca61be4e004")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa403d9b3f1d40a47d06d2ad8795d309bb21ef6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("BankaUygulamasi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BankaUygulamasi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
