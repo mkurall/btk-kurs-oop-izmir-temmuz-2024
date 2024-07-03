@@ -1,8 +1,13 @@
 ﻿//ANAPROGRAM
 
+using BankaUygulamasi;
 using BankaUygulamasi.Konsol;
 
-string ad = Klavye.StrOku("Adınızı girin:");
-int yas = Klavye.IntOku("Yaşınız nedir?");
+string str = Klavye.StrOku("Banka Adını Gir:");
 
-Console.WriteLine("Merhaba," + ad);
+//Benim tanımladığım banka sınıfından bir örnek oluşturdum
+Banka yeniBanka = new(); 
+yeniBanka.BankaAd = str;
+
+Console.WriteLine("Yeni Banka Oluşturuldu.");
+Console.WriteLine($"Yeni Bankanın adı:{yeniBanka.BankaAd}");
