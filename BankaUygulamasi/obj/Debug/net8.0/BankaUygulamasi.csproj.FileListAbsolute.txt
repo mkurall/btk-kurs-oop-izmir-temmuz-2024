@@ -12,3 +12,4 @@ C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\obj\Debug\n
 C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\obj\Debug\net8.0\BankaUygulamasi.pdb
 C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\obj\Debug\net8.0\BankaUygulamasi.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\obj\Debug\net8.0\ref\BankaUygulamasi.dll
+C:\Users\Administrator\Desktop\BTK KURS\OOPTemelleri\BankaUygulamasi\obj\Debug\net8.0\BankaUygulamasi.sourcelink.json
