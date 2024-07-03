@@ -14,7 +14,6 @@ public class AnaEkran : TemelEkran
         TemelEkran ekran;
         do
         {
-                Console.Clear();
                 Console.WriteLine("<<ANAEKRAN>>");
                 Console.WriteLine("1-Banka Bilgilerini Guncelle");
                 Console.WriteLine("2-Banka Bilgilerini Goster");
@@ -36,6 +35,9 @@ public class AnaEkran : TemelEkran
                         case 0:Console.WriteLine("0 seçildi.");return;//metottan çık
                         default:Console.WriteLine("Yanlış Seçim.");break;
                 }
+
+                Klavye.StrOku("Devam etmek için <<enter> tuşuna basın...");
+
         } while(true);
     }
 }
