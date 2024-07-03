@@ -40,16 +40,16 @@ yeniBanka.Musteriler.Add(yeniMusteri2);
 Console.Read();
 */
 
-/*
+
 Veri.DosyadanOku();
 
 AnaEkran ekran = new AnaEkran();
 ekran.Goster();
 
 Veri.DosyayaKaydet();
-*/
 
 
+/*
 string klasorum = Directory.GetCurrentDirectory();
 
 Console.WriteLine("Aktif Klasor: " + klasorum);
@@ -71,4 +71,6 @@ if(File.Exists(okunacakDosya))
     string icerik = File.ReadAllText(okunacakDosya);
     Console.WriteLine("İçerik: " + icerik);
 }
-else Console.WriteLine("Dosya bulunamadı!");
+else 
+    Console.WriteLine("Dosya bulunamadı!");
+*/

@@ -1,0 +1,1 @@
+{"BankaAd":"Ziraat","BankaTel":"232","BankaAdres":"\u2500\u2591zmir","KurulusYili":1981,"Musteriler":[]}
