@@ -40,10 +40,35 @@ yeniBanka.Musteriler.Add(yeniMusteri2);
 Console.Read();
 */
 
- Veri.Bankam = new Banka();
-
+/*
+Veri.DosyadanOku();
 
 AnaEkran ekran = new AnaEkran();
 ekran.Goster();
 
+Veri.DosyayaKaydet();
+*/
 
+
+string klasorum = Directory.GetCurrentDirectory();
+
+Console.WriteLine("Aktif Klasor: " + klasorum);
+
+string[] dosyalar = Directory.GetFiles(klasorum);
+
+for (int i = 0;i<dosyalar.Length; i++)
+{
+    string dosyaAdi = Path.GetFileName(dosyalar[i]);
+    Console.WriteLine(dosyaAdi);
+}
+
+string yeniDosyaAdi = "Bilgiler.txt";
+File.WriteAllText(yeniDosyaAdi, "Bu bizim programdan oluşturulan dosya.");
+
+string okunacakDosya = "Bilgiler2.txt";
+if(File.Exists(okunacakDosya))
+{
+    string icerik = File.ReadAllText(okunacakDosya);
+    Console.WriteLine("İçerik: " + icerik);
+}
+else Console.WriteLine("Dosya bulunamadı!");
